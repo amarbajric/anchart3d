@@ -8,7 +8,7 @@
 - Michael Fuchs ([deKilla](https://github.com/deKilla))
 - Timo Hasenbichler ([timoooo](https://github.com/timoooo))
 
-#Preface
+# Preface
 
 This project has been developed by three ambitious students, who are studying at the university "FH Joanneum" in Graz, Austria. 
 The project is an open source library for visualizing JSON data as three dimensional Charts (e.g. Pie Charts or Bar Charts), which are not 
@@ -41,12 +41,12 @@ var configuration = {
     .data(jsonData)
     .draw();
 ```
-createChart("anchart3d") points to a <div> in the document having the id="anchart3d". This div will contain all chart related elements. The name or the id respectively, can be anything but has to the same in the div and must be passed as argument to the createChart() method. 
-For an explanation of the the configuration parameters and and overview, refer to the according chapter.
+createChart("anchart3d") points to a <div> in the document having the id="anchart3d". This div will contain all chart related elements. The name or id of the div can be anything and must be passed as argument to the createChart() method. 
+For an explanation of the the configuration parameters and an detailed overview, please have a look at the link in the following chapter section.
 
 
 #### Further reading
 
-Feel free to have a look at the project website to find out about all the possiblities and how to use them:
+For more information about the library (demos, configuration, usage, ...) feel free to have a look at the project website:
 
 https://dekilla.github.io/anchart3d
